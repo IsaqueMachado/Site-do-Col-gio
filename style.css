@@ -9,15 +9,21 @@
     --alto-contraste-link: #ffd700;
 }
 
-body {
-
-    .noto-sans-jp-<uniquifier> {
-        font-family: "Noto Sans JP", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-      };
-}
+/* Definindo variáveis para weight e uniquifier */
+:root {
+    --weight: 400;  /* Exemplo de peso */
+    --uniquifier: 'unique-class';  /* Exemplo de sufixo para a classe */
+  }
+  
+  body {
+    .noto-sans-jp- var(--uniquifier) {
+      font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: var(--weight);
+      font-style: normal;
+    }
+  }
+  
 
 header {
     background-color: #314329;
