@@ -15,7 +15,7 @@
     --uniquifier: 'unique-class';  /* Exemplo de sufixo para a classe */
   }
   
-  body {
+body {
     .noto-sans-jp- var(--uniquifier) {
       font-family: "Noto Sans JP", sans-serif;
       font-optical-sizing: auto;
